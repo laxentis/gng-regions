@@ -3,7 +3,7 @@
     "publisher": "laxentis",
     "displayName": "GNG Regions",
     "description": "Syntax highlighting for AeroNav GNG Regions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.66.0"
     },
