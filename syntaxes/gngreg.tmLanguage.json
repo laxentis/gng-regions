@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "GNG Region",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#colors"
+		},
+		{
+			"include": "#northing"
+		},
+		{
+			"include": "#easting"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.line.semicolon.gngreg",
+			"match": "^(;.*)$"
+		},
+		"colors": {
+			"name": "keyword.control.gngreg",
+			"match": "^(COLOR_.*)"
+		},
+		"northing": {
+			"name": "variable.other.gngreg",
+			"match": "([NS]\\d{3}\\.\\d{2}\\.\\d{2}\\.\\d{3})"
+		},
+		"easting": {
+			"name": "storage.type.gngreg",
+			"match": "([EW]\\d{3}\\.\\d{2}\\.\\d{2}\\.\\d{3})"
+		},
+		"heading": {
+			"name": "markup.bold",
+			"match": "^(AERONAV:\\w{4}:\\w*:\\w*:.*)$"
+		}
+	},
+	"scopeName": "source.gngreg"
+}

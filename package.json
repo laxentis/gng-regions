@@ -1,0 +1,26 @@
+{
+    "name": "gng-regions",
+    "publisher": "laxentis",
+    "displayName": "GNG Regions",
+    "description": "Syntax highlighting for AeroNav GNG Regions",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gngreg",
+            "aliases": ["GNG Region", "gngreg"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gngreg",
+            "scopeName": "source.gngreg",
+            "path": "./syntaxes/gngreg.tmLanguage.json"
+        }]
+    }
+}
