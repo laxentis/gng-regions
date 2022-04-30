@@ -22,5 +22,9 @@
             "scopeName": "source.gngreg",
             "path": "./syntaxes/gngreg.tmLanguage.json"
         }]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/laxentis/gng-regions"
+      }
 }
